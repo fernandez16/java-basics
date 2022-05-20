@@ -55,7 +55,9 @@ public class Ejercicio2 {
 	}
 
 	String checkCategory(String category) {
+		
 		String result = "";
+		
 		switch (category) {
 		case "a":
 			result = "Hijo";
@@ -69,7 +71,9 @@ public class Ejercicio2 {
 		default:
 			result = "Error";
 		}
+		
 		return result;
+		
 	}
 
 	String checkVehicle(char category) {
