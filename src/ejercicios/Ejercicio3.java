@@ -11,7 +11,7 @@ public class Ejercicio3 {
 		System.out.println("multiplicationTable test");
 		System.out.println(test.multiplicationTable(2));
 		System.out.println(test.multiplicationTable(3));
-		
+
 		System.out.println("calculateIncome test");
 		System.out.println(test.calculateNetIncome("a", 1, 20000));
 		System.out.println(test.calculateNetIncome("b", 7, 30000));
@@ -20,11 +20,15 @@ public class Ejercicio3 {
 	}
 
 	String multiplicationTable(int number) {
-		int[] multiplicationTableResult = {1, 2, 3, 4, 5, 6, 7, 8, 9};
+
+		int[] multiplicationTableResult = { 1, 2, 3, 4, 5, 6, 7, 8, 9 };
+
 		for (int i = 0; i < 9; i++) {
-			multiplicationTableResult[i] = ( i + 1 ) * number;
+			multiplicationTableResult[i] = (i + 1) * number;
 		}
+
 		return Arrays.toString(multiplicationTableResult);
+
 	}
 
 	int calculateNetIncome(String category, int years, int income) {
