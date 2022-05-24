@@ -49,7 +49,7 @@ public class TestIO {
 		} catch (IOException e) {
 			System.out.println ("Error detectado en cierre de archivo.");
 		}
-		
+
 	}
 
 }
