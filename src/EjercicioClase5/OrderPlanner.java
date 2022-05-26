@@ -44,11 +44,11 @@ public class OrderPlanner {
 				while (st.hasMoreTokens()) {
 
 					article = st.nextToken().toString();
-					
+
 					String articleAmount = "";
 					StringTokenizer st2 = new StringTokenizer(article, " ");
 					articleAmount = st2.nextToken();
-					
+
 					if (article.indexOf("Bolson") > 1) {
 						bolson = articleAmount;
 					}
